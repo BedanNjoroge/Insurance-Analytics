@@ -1,7 +1,9 @@
 # Insurance-Analytics
 
 #Project Overview
+
 This project explores how demographic and health-related factors such as age, BMI, smoking status, and number of dependents  influence insurance charges.
+
 It combines data analysis, machine learning, and dashboard design to deliver both predictive insights and interactive data visualizations for better decision-making in the insurance industry.
 
 **Objectives**
@@ -14,6 +16,7 @@ It combines data analysis, machine learning, and dashboard design to deliver bot
 1. Exploratory Data Analysis (EDA)
    
 Performed detailed EDA using Python to uncover relationships between variables.
+
 2. Machine Learning
 
 Built models and deployed a Streamlit web app for predicting insurance charges using features such as: Age, BMI, Number of children, Smoker status, Gender, Region.
@@ -21,7 +24,9 @@ Built models and deployed a Streamlit web app for predicting insurance charges u
 Streamlit app link: https://insurance-analytics-hs.streamlit.app/
 
 3. Dashboards & Visualization
+   
 Developed 3 interactive dashboards for every kind of stakeholder;
+
 a. Plotly Dash
 b. Excel + Power Query
 c. Power BI 
