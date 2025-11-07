@@ -33,6 +33,13 @@ It combines data analysis, machine learning, and dashboard design to deliver bot
 
    c. Plotly Dash
 
+   <img width="1347" height="494" alt="image" src="https://github.com/user-attachments/assets/ce396e26-50d6-4a77-99fe-703487ec194d" />
+
+   <img width="893" height="508" alt="image" src="https://github.com/user-attachments/assets/59621be6-1c8a-4c86-9863-dcb4ed823ad9" />
+
+   <img width="1365" height="633" alt="image" src="https://github.com/user-attachments/assets/ee46dffc-591c-4ba0-91cf-d7ef7021b395" />
+
+
 **Key Insights**
 1. Smokers pay on average 3x more than non-smokers (your lungs aren’t the only thing taking a hit😉).
 2. Ages 19–25 are the most frequent policyholders — looks like Gen Z is insuring early!
