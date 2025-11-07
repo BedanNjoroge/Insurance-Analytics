@@ -1,1 +1,165 @@
+/* assets/style.css
+   Color palette: #050A30 #457B9D #249D8F #99C24D #E9C46A #F4A261 #E76F51 #F9E5E3 #A8A9AD #343A40
+*/
 
+/* ---------- Root color variables (fallback) ---------- */
+:root {
+  --navy: #050A30;
+  --sky: #457B9D;
+  --teal: #249D8F;
+  --olive: #99C24D;
+  --gold: #E9C46A;
+  --rust: #F4A261;
+  --brick: #E76F51;
+  --coral: #F9E5E3;
+  --warm-grey: #A8A9AD;
+  --charcoal: #343A40;
+}
+
+/* ---------- Theme: Light ---------- */
+.app-root.light-theme {
+  --bg: var(--coral);
+  --text: var(--navy);
+  --card-bg: #ffffff;
+  --accent: var(--teal);
+  --muted: var(--warm-grey);
+  --nav-bg: var(--sky);
+}
+
+/* ---------- Theme: Dark ---------- */
+.app-root.dark-theme {
+  --bg: var(--navy);
+  --text: var(--coral);
+  --card-bg: var(--charcoal);
+  --accent: var(--sky);
+  --muted: var(--warm-grey);
+  --nav-bg: #0b1222;
+}
+
+/* ---------- Base layout ---------- */
+body, .app-root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background-color: var(--nav-bg) !important;
+  border-radius: 8px;
+  margin: 12px;
+  padding: 8px 16px;
+}
+
+/* nav links style */
+.navbar .nav-link {
+  color: var(--coral) !important;
+  font-weight: 600;
+}
+/* ---------- Navbar Brand (Insurance Analytics) ---------- */
+.navbar .navbar-brand {
+  font-size: 1.8rem;      /* Increase font size */
+  font-weight: 720;       /* Make it bold */
+  color: var(--coral);    /* Use your palette color */
+  letter-spacing: 0.5px;  /* Optional: nice visual spacing */
+}
+
+/* ---------- Toggle row ---------- */
+.toggle-row {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 24px;
+  margin-top: 4px;
+}
+
+/* ---------- KPI row ---------- */
+.kpi-row {
+  display: flex;
+  gap: 8px;   /*was 18px*/
+  padding: 14px 24px; /*was 18px by 24px   */
+  flex-wrap: nowrap;  /*was wrap */
+  justify-content: center; /* center cards horizontally */
+  align-items: stretch;    /* same height */
+  overflow-x: auto; /* allows scroll on smaller screens */
+}
+
+/* KPI card */
+.kpi-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(0,0,0,0.04));
+  background-color: var(--card-bg);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 16px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.25);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(2,6,23,0.35);
+}
+
+.kpi-icon {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.kpi-title {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.kpi-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* ---------- Charts container ---------- */
+.chart-row {
+  padding: 18px 24px 40px 24px; /*was 12px 24px 40px 24px*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 18px;
+  justify-content: center;  
+}
+
+/* Plotly charts background color (cards) */
+.js-plotly-plot .plotly {
+  background-color: transparent !important;
+}
+
+/* Chart container style (cards while embedding) */
+.chart-card {
+  background-color: var(--card-bg);
+  border-radius: 18px;  /*was 12px*/
+  padding: 18px;  /*was 12px*/
+  box-shadow: 0 6px 18px rgba(2,6,23,0.2);
+}
+
+/* Make plotly axis & fonts adapt */
+.plotly .xtick text, .plotly .ytick text {
+  fill: var(--text) !important;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .kpi-row {
+    justify-content: center;
+  }
+  .kpi-card { max-width: 420px; width: 100%; }
+  .chart-row { grid-template-columns: 1fr; }
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  padding: 18px;
+  color: var(--muted);
+}
