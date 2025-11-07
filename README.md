@@ -1,6 +1,6 @@
 # Insurance-Analytics
 
-#Project Overview
+**Project Overview**
 
 This project explores how demographic and health-related factors such as age, BMI, smoking status, and number of dependents  influence insurance charges.
 
@@ -28,7 +28,9 @@ Streamlit app link: https://insurance-analytics-hs.streamlit.app/
 Developed 3 interactive dashboards for every kind of stakeholder;
 
 a. Plotly Dash
+
 b. Excel + Power Query
+
 c. Power BI 
 
 **Key Insights**
