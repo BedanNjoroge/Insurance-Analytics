@@ -1,6 +1,6 @@
 # Insurance-Analytics
 
-# Project Overview
+**Project Overview**
 
 This project explores how demographic and health-related factors such as age, BMI, smoking status, and number of dependents  influence insurance charges.
 
