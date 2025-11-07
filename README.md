@@ -1,5 +1,6 @@
 # Insurance-Analytics
 
+```bash
 Folder Structure
 Insurance-Analytics/
 │
