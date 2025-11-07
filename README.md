@@ -34,7 +34,8 @@ It combines data analysis, machine learning, and dashboard design to deliver bot
    
    b. Power BI
    
-   <img width="893" height="508" alt="image" src="https://github.com/user-attachments/assets/59621be6-1c8a-4c86-9863-dcb4ed823ad9" />
+   <img width="807" height="458" alt="image" src="https://github.com/user-attachments/assets/23eb7e3a-9532-4018-ac59-56d59efa267b" />
+
 
    c. Plotly Dash
 
