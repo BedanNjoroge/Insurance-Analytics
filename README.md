@@ -39,6 +39,9 @@ It combines data analysis, machine learning, and dashboard design to deliver bot
 3. Obese I and Overweight individuals were the most common in taking up insurance.
 4. Smoker status and Age were the strongest predictors of insurance charges.
 
+   <img width="709" height="472" alt="image" src="https://github.com/user-attachments/assets/30250742-437a-490c-a34e-4e9ce38d5255" />
+
+
 **Business Recommendations**
 1. Target potential policyholders aged 19–25 with health and family plans.
 2. Offer BMI-based discounts to encourage healthier lifestyles.
