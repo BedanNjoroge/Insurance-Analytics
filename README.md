@@ -28,16 +28,18 @@ It combines data analysis, machine learning, and dashboard design to deliver bot
    Developed 3 interactive dashboards for every kind of stakeholder;
 
    a. Excel + Power Query
-
+   <img width="1347" height="494" alt="image" src="https://github.com/user-attachments/assets/ce396e26-50d6-4a77-99fe-703487ec194d" />
+   
    b. Power BI
+   <img width="893" height="508" alt="image" src="https://github.com/user-attachments/assets/59621be6-1c8a-4c86-9863-dcb4ed823ad9" />
 
    c. Plotly Dash
 
-   <img width="1347" height="494" alt="image" src="https://github.com/user-attachments/assets/ce396e26-50d6-4a77-99fe-703487ec194d" />
-
-   <img width="893" height="508" alt="image" src="https://github.com/user-attachments/assets/59621be6-1c8a-4c86-9863-dcb4ed823ad9" />
-
+   
    <img width="1365" height="633" alt="image" src="https://github.com/user-attachments/assets/ee46dffc-591c-4ba0-91cf-d7ef7021b395" />
+
+   <img width="1594" height="776" alt="image" src="https://github.com/user-attachments/assets/e8c78f4b-fe01-459f-b5da-eea52d7ebd02" />
+
 
 
 **Key Insights**
