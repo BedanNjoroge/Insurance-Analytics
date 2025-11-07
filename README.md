@@ -1,6 +1,6 @@
 # Insurance-Analytics
 
-**Project Overview**
+# Project Overview
 
 This project explores how demographic and health-related factors such as age, BMI, smoking status, and number of dependents  influence insurance charges.
 
@@ -15,23 +15,23 @@ It combines data analysis, machine learning, and dashboard design to deliver bot
 **Project Workflow**
 1. Exploratory Data Analysis (EDA)
    
-Performed detailed EDA using Python to uncover relationships between variables.
+   Performed detailed EDA using Python to uncover relationships between variables.
 
 2. Machine Learning
 
-Built models and deployed a Streamlit web app for predicting insurance charges using features such as: Age, BMI, Number of children, Smoker status, Gender, Region.
+   Built ML models and deployed a Streamlit web app for predicting insurance charges using features such as: Age, BMI, Number of children, Smoker status, Gender, Region.
 
-Streamlit app link: https://insurance-analytics-hs.streamlit.app/
+   Streamlit app link: https://insurance-analytics-hs.streamlit.app/
 
 3. Dashboards & Visualization
    
-Developed 3 interactive dashboards for every kind of stakeholder;
+   Developed 3 interactive dashboards for every kind of stakeholder;
 
-a. Plotly Dash
+   a. Excel + Power Query
 
-b. Excel + Power Query
+   b. Power BI
 
-c. Power BI 
+   c. Plotly Dash
 
 **Key Insights**
 1. Smokers pay on average 3x more than non-smokers (your lungs aren’t the only thing taking a hit😉).
@@ -45,7 +45,8 @@ c. Power BI
 3. Reward non-smokers (and maybe cheer on those trying to quit💪).
 
 ```bash
-Folder Structure
+Folder Structure:
+
 Insurance-Analytics/
 │
 ├── Data/
