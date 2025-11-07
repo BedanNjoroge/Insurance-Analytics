@@ -43,7 +43,7 @@ It combines data analysis, machine learning, and dashboard design to deliver bot
 
 
 **Key Insights**
-1. Smokers pay on average 3x more than non-smokers (your lungs aren’t the only thing taking a hit😉).
+1. Smokers pay on average 4x more than non-smokers (your lungs aren’t the only thing taking a hit😉).
 2. Ages 19–25 are the most frequent policyholders — looks like Gen Z is insuring early!
 3. Obese I and Overweight individuals were the most common in taking up insurance.
 4. Smoker status and Age were the strongest predictors of insurance charges.
