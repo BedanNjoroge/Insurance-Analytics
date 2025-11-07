@@ -12,10 +12,14 @@ It combines data analysis, machine learning, and dashboard design to deliver bot
 
 **Project Workflow**
 1. Exploratory Data Analysis (EDA)
+   
 Performed detailed EDA using Python to uncover relationships between variables.
 2. Machine Learning
-Built models and deployed a Streamlit web app for predicting insurance charges using features such as: Age, BMI, Number of children, Smoker status, Gender, Region
+
+Built models and deployed a Streamlit web app for predicting insurance charges using features such as: Age, BMI, Number of children, Smoker status, Gender, Region.
+
 Streamlit app link: https://insurance-analytics-hs.streamlit.app/
+
 3. Dashboards & Visualization
 Developed 3 interactive dashboards for every kind of stakeholder;
 a. Plotly Dash
