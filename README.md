@@ -39,7 +39,7 @@ It combines data analysis, machine learning, and dashboard design to deliver bot
 
    c. Plotly Dash
 
-   <img width="1365" height="633" alt="image" src="https://github.com/user-attachments/assets/ee46dffc-591c-4ba0-91cf-d7ef7021b395" />
+   <img width="1584" height="759" alt="image" src="https://github.com/user-attachments/assets/4ed427f8-2763-40d9-84fc-bc1cd7f32301" />
 
 
 **Key Insights**
