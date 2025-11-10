@@ -2,7 +2,7 @@
 
 **Project Overview**
 
-This project explores how demographic and health-related factors such as age, BMI, smoking status, and number of dependents  influence insurance charges.
+This project explores how demographic and health-related factors such as age, BMI, smoking status, and number of dependants  influence insurance charges.
 
 It combines data analysis, machine learning, and dashboard design to deliver both predictive insights and interactive data visualizations for better decision-making in the insurance industry.
 
