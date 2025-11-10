@@ -29,8 +29,8 @@ It combines data analysis, machine learning, and dashboard design to deliver bot
 
    a. Excel + Power Query
    
-   <img width="1347" height="494" alt="image" src="https://github.com/user-attachments/assets/ce396e26-50d6-4a77-99fe-703487ec194d" />
-   
+   <img width="1552" height="555" alt="image" src="https://github.com/user-attachments/assets/153ea14f-dcc1-4346-b1f9-ea526ab49cae" />
+
    
    b. Power BI
    
