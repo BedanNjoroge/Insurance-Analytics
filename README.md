@@ -75,7 +75,7 @@ Insurance-Analytics/
 │   ├── powerbi_dashboard.pdf
 │   ├── assets/
 │       └── style.css
-├── Streamlit App/
+├── Streamlit_App/
 │     └──app_streamlit.py
 │   
 ├── README.md
